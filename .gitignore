@@ -1,4 +1,5 @@
 # Ignore compiled object files and executables
+# Roll No: MT25055
 *.o
 MT25055_Part_A1_Server
 MT25055_Part_A1_Client
@@ -10,7 +11,7 @@ MT25055_Part_A3_Client
 # Ignore Data and Reports (Strict Assignment Rule)
 *.csv
 *.png
-*.pdf
+# *.pdf
 *.txt
 !README.txt  # Exception: Keep the Readme
 
