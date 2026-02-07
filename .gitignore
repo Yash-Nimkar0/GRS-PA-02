@@ -1,0 +1,22 @@
+# Ignore compiled object files and executables
+*.o
+MT25055_Part_A1_Server
+MT25055_Part_A1_Client
+MT25055_Part_A2_Server
+MT25055_Part_A2_Client
+MT25055_Part_A3_Server
+MT25055_Part_A3_Client
+
+# Ignore Data and Reports (Strict Assignment Rule)
+*.csv
+*.png
+*.pdf
+*.txt
+!README.txt  # Exception: Keep the Readme
+
+# Ignore OS files
+.DS_Store
+
+# Ignore Helper Scripts (Optional, keep if you want)
+generate_diagram.py
+MT25055_Part_E_Report_Generator.py
